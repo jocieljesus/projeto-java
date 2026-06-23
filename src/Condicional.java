@@ -29,16 +29,17 @@ public class Condicional {
 
         double imc = peso / Math.pow(altura, 2); // altura * altura -> potencia
 
-        if (imc < 18.5){
+        if (imc < 18.5) {
             System.out.println("Abaixo do Peso");
-        } else if (imc >= 18.5 & imc < 25){
+        } else if (imc >= 18.5 & imc < 25) {
             System.out.println("**Peso ideal (parabéns)**");
-        } else if (imc >= 25 & imc < 30){
+        } else if (imc >= 25 & imc < 30) {
             System.out.println("**Levemente acima do peso**");
-        } else if (imc >=30 & imc < 35){
+        } else if (imc >= 30 & imc < 35) {
             System.out.println("**Obesidade Grau I**");
         } else {
             System.out.println("**Obesidade Severa/Mórbida**");
         }
     }
 }
+
