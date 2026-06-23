@@ -1,4 +1,4 @@
-/*
+package revisao;/*
  O Cálculo do IMC com Diagnóstico Completo**
 Desenvolva um programa que calcule o Índice de Massa Corporal
 (IMC) de uma pessoa.  O script deve pedir o peso (em kg) e a altura (em metros).
