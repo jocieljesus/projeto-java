@@ -7,13 +7,40 @@ public class Produto {
     private int quantidadeEstoque;
     private String tamanho;
 
-    //Construtor de objeto
+    //Construtor de objeto vazio
+    public Produto(){}
+
+    //Contrutor de objeto com parametro
     public Produto(String nome, double preco, int quantidadeEstoque, String tamanho){
         this.nome = nome;
         this.preco = preco;
         this.quantidadeEstoque = quantidadeEstoque;
         this.tamanho = tamanho;
+
+
     }
+
+    public String getNome(){
+        return nome;
+    }
+
+    public void setNome(String nome){
+        this.nome = nome;
+    }
+
+    public double getPreco(){
+        return preco;
+    }
+
+
+    public void setPreco(double p){
+        this.preco = p;
+    }
+
+
+
+
+
 
     //Métodos
     public void mostrarEstoque(){
